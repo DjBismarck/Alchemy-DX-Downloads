@@ -8,7 +8,7 @@ Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca mu
 
 ## Beta pública
 
-- **Versión disponible:** 1.3 Beta — build 159.
+- **Versión disponible:** 1.3 Beta — build 175.
 - **Sistema requerido:** macOS 13 Ventura o posterior.
 - **Plataforma principal:** Apple Silicon (ARM64).
 - **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
@@ -18,7 +18,7 @@ Esta es una versión beta. Puede presentar errores y sus funciones o compatibili
 
 ## Descargar e instalar
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 159](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build159) y busca la sección **Assets** (archivos).
+Abre la [descarga de Alchemy DX 1.3 Beta — build 175](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build175) y busca la sección **Assets** (archivos).
 
 ### 1. Elige el instalador para tu Mac
 
@@ -26,8 +26,8 @@ Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de est
 
 | Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.159.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build159/Alchemy.DX.1.3.Beta.build.159.dmg) |
-| Intel | [Alchemy.DX.1.3.Beta.build.159.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build159/Alchemy.DX.1.3.Beta.build.159.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.175.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build175/Alchemy.DX.1.3.Beta.build.175.dmg) |
+| Intel | [Alchemy.DX.1.3.Beta.build.175.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build175/Alchemy.DX.1.3.Beta.build.175.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
 
 Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
@@ -54,18 +54,23 @@ Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas 
 
 La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
 
-## Novedades de 1.3 Beta — build 159
+## Novedades de 1.3 Beta — build 175
 
-- Corregido un cierre inesperado que podía ocurrir durante exportaciones largas cuando la copia se detenía temporalmente.
-- La estimación del tiempo restante muestra «calculando tiempo restante…» cuando todavía no puede ofrecer un cálculo fiable.
+- **Edita etiquetas con doble clic:** modifica título, artista, álbum, género, año y otros campos desde la tabla. Intro guarda y Esc cancela.
+- **Editor de una o varias canciones:** abre «Editar etiquetas…» desde el menú contextual o con ⌘⇧T. En selecciones múltiples, solo se modifican los campos que cambies.
+- **Canciones por carpeta:** consulta el número de canciones directamente en la barra lateral.
+- **Etiquetas según el formato:** en MP3 y MP4/M4A se guardan en el archivo y en Serato DJ 5; en WAV, AIFF y FLAC, por ahora solo en Serato. BPM y tono no se editan con esta función. La edición dispone de una opción de deshacer en el menú contextual.
 
-Se recomienda actualizar desde el build 156. Se mantienen las mejoras anteriores:
+Antes de editar etiquetas, conserva una copia de seguridad de tus archivos y cierra Serato DJ.
 
-- Importa los crates seleccionados directamente en la raíz o conserva su estructura completa de carpetas de Serato.
-- Consulta una vista previa del destino antes de importar; la aplicación recuerda tu preferencia.
-- Identifica mejor los crates con el mismo nombre procedentes de distintas carpetas para mantenerlos separados.
+### Otras mejoras beta desde el build 159
 
-Las mejoras recientes también incluyen un reproductor renovado, un progreso de exportación más claro, mejoras en el Inspector USB/SD y una interfaz actualizada.
+- Avisos más claros al agregar carpetas que contienen otras ya agregadas.
+- Información sobre las canciones que faltan cuando una playlist se exporta con menos canciones de las previstas.
+- Diagnóstico ampliado para facilitar la revisión de incidencias.
+- Mejoras de estabilidad, vista previa de importación y legibilidad de las tablas.
+
+Se recomienda actualizar desde las betas anteriores. Se conservan las funciones de importación de crates, preescucha, exportación e Inspector USB/SD.
 
 ## Acerca de este repositorio
 
