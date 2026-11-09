@@ -1,63 +1,69 @@
 # Alchemy DX
 
-**macOS DJ Library Management & USB Export Utility**
+**Organización de bibliotecas DJ y exportación a USB para macOS**
 
-Alchemy DX is a macOS application designed to help organize music libraries and prepare USB exports for selected compatible DJ equipment.
+Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca musical, importar crates de Serato DJ y preparar exportaciones USB o SD para determinados equipos DJ compatibles.
 
-## Public Beta
+**Idioma de la aplicación: español.** Actualmente no dispone de una opción para cambiar de idioma.
 
-- **Status:** Public Beta.
-- **System requirement:** macOS 13 Ventura or later.
-- **Primary platform:** Apple Silicon (ARM64).
-- **Intel support:** A Universal installer is available. Its Intel build has been tested under Rosetta on Apple Silicon; testing on a physical Intel Mac has not yet been confirmed.
-- **Beta operating deadline:** January 7, 2027. After expiry, synchronization, USB/Rekordbox export, and formatting are disabled. Library browsing and the Inspector remain available.
+## Beta pública
 
-This is beta software. Features and compatibility may change, and unexpected behavior may occur. Keep backups of your music library and test exports before relying on them in a performance.
+- **Versión disponible:** 1.3 Beta — build 156.
+- **Sistema requerido:** macOS 13 Ventura o posterior.
+- **Plataforma principal:** Apple Silicon (ARM64).
+- **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
+- **Fecha límite de la beta:** 7 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
 
-## Features
+Esta es una versión beta. Puede presentar errores y sus funciones o compatibilidad pueden cambiar. Conserva copias de seguridad y prueba las exportaciones con tu equipo antes de utilizarlas en una presentación.
 
-- **Organize your library:** manage folders, playlists, and track order for export.
-- **Bring your Serato crates:** import crates and subcrates, including music stored across connected drives.
-- **Prepare USB and SD media:** export libraries for selected compatible DJ equipment and update existing exports without reformatting.
-- **Choose your playlist layout:** preserve folders or place playlists at the root.
-- **Preview before exporting:** listen to tracks with playback controls, artwork, and a progress bar.
-- **Inspect your exports:** review library integrity and export results with the USB/SD Inspector.
-- **Work with video-based libraries:** extract audio during USB export where applicable.
-- **Follow the process:** view export progress, phase timing, and clear completion messages.
-- **Use a refined macOS interface:** Day, Night, and Auto appearance modes, keyboard shortcuts, and offline help.
+## Descargar e instalar
 
-Compatibility depends on the hardware, firmware, operating system, library format, and software version in use. Support for every Pioneer DJ device or every Serato DJ version is not guaranteed. Back up existing media before updating or formatting it.
+Abre la [descarga de Alchemy DX 1.3 Beta — build 156](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta) y busca la sección **Assets** (archivos).
 
-## What's new in 1.3 Beta — build 156
+### 1. Elige el instalador para tu Mac
 
-- Import selected crates directly at the root or retain their full Serato folder structure.
-- Preview the destination before importing; your layout preference is remembered.
-- Clearer handling of matching crate names from different source folders, helping keep them distinct.
+Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de esta Mac**. Comprueba si indica un chip Apple o un procesador Intel.
 
-Recent improvements also include a redesigned track player, clearer export progress, improved USB/SD inspection, and a refreshed interface.
-
-## Download
-
-Download available installers from [GitHub Releases](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases).
-
-**Current release:** [Alchemy DX 1.3 Beta — build 156](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta).
-
-| Installer | Intended platform |
+| Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| `Alchemy.DX.1.3.Beta.build.156.dmg` | Apple Silicon (ARM64) |
-| `Alchemy.DX.1.3.Beta.build.156.Universal.dmg` | Apple Silicon and Intel; see the Intel testing limitation above |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.156.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta/Alchemy.DX.1.3.Beta.build.156.dmg) |
+| Intel | [Alchemy.DX.1.3.Beta.build.156.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta/Alchemy.DX.1.3.Beta.build.156.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
 
-Choose the installer appropriate for your Mac and review the release notes before installing.
+Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
-## Installation
+### 2. Instala la aplicación
 
-1. Download the appropriate DMG from Releases.
-2. Open the DMG and follow its installation instructions. If it contains an application and an Applications shortcut, drag Alchemy DX into Applications.
-3. Open Alchemy DX from Applications.
-4. Back up your library and test a small export with your equipment before regular use.
+1. Abre el archivo **.dmg** que descargaste.
+2. Sigue las instrucciones incluidas en el instalador. Si aparecen Alchemy DX y un acceso a Aplicaciones, arrastra **Alchemy DX** a **Aplicaciones**.
+3. Abre **Alchemy DX** desde **Aplicaciones**.
+4. Conserva una copia de seguridad de tu biblioteca y realiza una exportación pequeña de prueba antes de usarla habitualmente con tu equipo DJ.
 
-If macOS prevents the application from opening, review the system message and the release notes before proceeding.
+Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas de esta versión antes de continuar.
 
-## About this repository
+## Funciones principales
 
-This repository distributes compiled Alchemy DX installers and public beta information. Product source code and development projects are not included.
+- **Organiza tu biblioteca:** administra carpetas, playlists y el orden de las canciones para exportar.
+- **Importa tus crates de Serato:** incluye crates y subcrates, también con música distribuida entre discos conectados.
+- **Prepara USB y tarjetas SD:** exporta para determinados equipos DJ compatibles y actualiza exportaciones existentes sin volver a formatear.
+- **Elige cómo organizar las playlists:** conserva las carpetas o coloca las playlists en la raíz.
+- **Escucha antes de exportar:** utiliza el reproductor con controles, portada y barra de avance.
+- **Revisa tus exportaciones:** consulta la integridad de la biblioteca y los resultados con el Inspector USB/SD.
+- **Trabaja con archivos de video:** extrae el audio durante la exportación USB cuando corresponda.
+- **Sigue el progreso:** consulta las fases de la exportación, los tiempos y los mensajes de resultado.
+- **Utiliza una interfaz adaptada a macOS:** apariencia Día, Noche o Auto, atajos de teclado y ayuda sin conexión.
+
+La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
+
+## Novedades de 1.3 Beta — build 156
+
+- Importa los crates seleccionados directamente en la raíz o conserva su estructura completa de carpetas de Serato.
+- Consulta una vista previa del destino antes de importar; la aplicación recuerda tu preferencia.
+- Identifica mejor los crates con el mismo nombre procedentes de distintas carpetas para mantenerlos separados.
+
+Las mejoras recientes también incluyen un reproductor renovado, un progreso de exportación más claro, mejoras en el Inspector USB/SD y una interfaz actualizada.
+
+## Acerca de este repositorio
+
+Este repositorio distribuye los instaladores compilados de Alchemy DX e información pública para quienes prueban la beta. No incluye el código fuente del producto ni los proyectos de desarrollo.
+
+Puedes consultar todas las versiones publicadas en [Releases](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases).
