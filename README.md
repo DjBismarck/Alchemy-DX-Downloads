@@ -8,17 +8,17 @@ Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca mu
 
 ## Beta pública
 
-- **Versión disponible:** 1.3 Beta — build 156.
+- **Versión disponible:** 1.3 Beta — build 159.
 - **Sistema requerido:** macOS 13 Ventura o posterior.
 - **Plataforma principal:** Apple Silicon (ARM64).
 - **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
-- **Fecha límite de la beta:** 7 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
+- **Fecha límite de la beta:** 8 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
 
 Esta es una versión beta. Puede presentar errores y sus funciones o compatibilidad pueden cambiar. Conserva copias de seguridad y prueba las exportaciones con tu equipo antes de utilizarlas en una presentación.
 
 ## Descargar e instalar
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 156](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta) y busca la sección **Assets** (archivos).
+Abre la [descarga de Alchemy DX 1.3 Beta — build 159](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build159) y busca la sección **Assets** (archivos).
 
 ### 1. Elige el instalador para tu Mac
 
@@ -26,8 +26,8 @@ Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de est
 
 | Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.156.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta/Alchemy.DX.1.3.Beta.build.156.dmg) |
-| Intel | [Alchemy.DX.1.3.Beta.build.156.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta/Alchemy.DX.1.3.Beta.build.156.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.159.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build159/Alchemy.DX.1.3.Beta.build.159.dmg) |
+| Intel | [Alchemy.DX.1.3.Beta.build.159.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build159/Alchemy.DX.1.3.Beta.build.159.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
 
 Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
@@ -54,7 +54,12 @@ Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas 
 
 La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
 
-## Novedades de 1.3 Beta — build 156
+## Novedades de 1.3 Beta — build 159
+
+- Corregido un cierre inesperado que podía ocurrir durante exportaciones largas cuando la copia se detenía temporalmente.
+- La estimación del tiempo restante muestra «calculando tiempo restante…» cuando todavía no puede ofrecer un cálculo fiable.
+
+Se recomienda actualizar desde el build 156. Se mantienen las mejoras anteriores:
 
 - Importa los crates seleccionados directamente en la raíz o conserva su estructura completa de carpetas de Serato.
 - Consulta una vista previa del destino antes de importar; la aplicación recuerda tu preferencia.
