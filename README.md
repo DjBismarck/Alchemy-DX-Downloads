@@ -9,26 +9,45 @@ Alchemy DX is a macOS application designed to help organize music libraries and 
 - **Status:** Public Beta.
 - **System requirement:** macOS 13 Ventura or later.
 - **Primary platform:** Apple Silicon (ARM64).
-- **Intel support:** Subject to the availability of a Universal installer and corresponding compatibility testing.
-- **Beta operating deadline:** January 7, 2027. This beta is time-limited and will stop functioning after that date.
+- **Intel support:** A Universal installer is available. Its Intel build has been tested under Rosetta on Apple Silicon; testing on a physical Intel Mac has not yet been confirmed.
+- **Beta operating deadline:** January 7, 2027. After expiry, synchronization, USB/Rekordbox export, and formatting are disabled. Library browsing and the Inspector remain available.
 
 This is beta software. Features and compatibility may change, and unexpected behavior may occur. Keep backups of your music library and test exports before relying on them in a performance.
 
 ## Features
 
-- Music library organization.
-- Import of crates and playlists from Serato DJ.
-- Library preparation and export to compatible USB devices.
-- Support for the library formats accepted by the application.
-- Audio extraction from video files during USB export, where applicable.
+- **Organize your library:** manage folders, playlists, and track order for export.
+- **Bring your Serato crates:** import crates and subcrates, including music stored across connected drives.
+- **Prepare USB and SD media:** export libraries for selected compatible DJ equipment and update existing exports without reformatting.
+- **Choose your playlist layout:** preserve folders or place playlists at the root.
+- **Preview before exporting:** listen to tracks with playback controls, artwork, and a progress bar.
+- **Inspect your exports:** review library integrity and export results with the USB/SD Inspector.
+- **Work with video-based libraries:** extract audio during USB export where applicable.
+- **Follow the process:** view export progress, phase timing, and clear completion messages.
+- **Use a refined macOS interface:** Day, Night, and Auto appearance modes, keyboard shortcuts, and offline help.
 
-Compatibility depends on the hardware, operating system, library format, and software version in use. Support for every Pioneer DJ device or every Serato DJ version is not guaranteed.
+Compatibility depends on the hardware, firmware, operating system, library format, and software version in use. Support for every Pioneer DJ device or every Serato DJ version is not guaranteed. Back up existing media before updating or formatting it.
+
+## What's new in 1.3 Beta — build 156
+
+- Import selected crates directly at the root or retain their full Serato folder structure.
+- Preview the destination before importing; your layout preference is remembered.
+- Clearer handling of matching crate names from different source folders, helping keep them distinct.
+
+Recent improvements also include a redesigned track player, clearer export progress, improved USB/SD inspection, and a refreshed interface.
 
 ## Download
 
 Download available installers from [GitHub Releases](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases).
 
-Choose the installer appropriate for your Mac. ARM64 installers are intended for Apple Silicon. Use a Universal installer on Intel only when one is available and compatibility has been confirmed. Installers will appear in Releases when they are ready.
+**Current release:** [Alchemy DX 1.3 Beta — build 156](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta).
+
+| Installer | Intended platform |
+| --- | --- |
+| `Alchemy.DX.1.3.Beta.build.156.dmg` | Apple Silicon (ARM64) |
+| `Alchemy.DX.1.3.Beta.build.156.Universal.dmg` | Apple Silicon and Intel; see the Intel testing limitation above |
+
+Choose the installer appropriate for your Mac and review the release notes before installing.
 
 ## Installation
 
