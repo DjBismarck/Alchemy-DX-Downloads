@@ -4,21 +4,21 @@
 
 Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca musical, importar crates de Serato DJ y preparar exportaciones USB o SD para determinados equipos DJ compatibles.
 
-**Idioma de la aplicación: español.** Actualmente no dispone de una opción para cambiar de idioma.
+**Idiomas: español e inglés.** Incluye documentación en ambos idiomas.
 
 ## Beta pública
 
-- **Versión disponible:** 1.3 Beta — build 187.
+- **Versión disponible:** 1.3 Beta — build 217.
 - **Sistema requerido:** macOS 13 Ventura o posterior.
 - **Plataforma principal:** Apple Silicon (ARM64).
-- **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
-- **Fecha límite de la beta:** 8 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
+- **Disponibilidad de este build:** ARM64 para Apple Silicon. No hay instalador Universal del build 217 publicado. El Universal del build 187 sigue disponible como versión anterior; su parte Intel se probó bajo Rosetta, sin confirmación en un Mac Intel físico.
+- **Fecha límite de la beta:** 9 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
 
 Esta es una versión beta. Puede presentar errores y sus funciones o compatibilidad pueden cambiar. Conserva copias de seguridad y prueba las exportaciones con tu equipo antes de utilizarlas en una presentación.
 
 ## Descargar e instalar
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 187](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build187) y busca la sección **Assets** (archivos).
+Abre la [descarga de Alchemy DX 1.3 Beta — build 217](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build217) y busca la sección **Assets** (archivos).
 
 ### 1. Elige el instalador para tu Mac
 
@@ -26,8 +26,8 @@ Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de est
 
 | Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.187.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build187/Alchemy.DX.1.3.Beta.build.187.dmg) |
-| Intel | [Alchemy.DX.1.3.Beta.build.187.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build187/Alchemy.DX.1.3.Beta.build.187.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.217.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build217/Alchemy.DX.1.3.Beta.build.217.dmg) |
+| Intel | No hay Universal del build 217. [Universal beta anterior: build 187](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build187), con las limitaciones de pruebas indicadas arriba; caduca el 8 de enero de 2027 |
 
 Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
@@ -54,14 +54,16 @@ Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas 
 
 La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
 
-## Novedades de 1.3 Beta — build 187
+## Novedades de 1.3 Beta — build 217
 
-- **Actualizar USB:** corregido un cierre que podía ocurrir al actualizar memorias con playlists conservadas y canciones repetidas en la selección.
-- **Tabla de canciones:** mejoras de estabilidad al cambiar entre carpetas con muchas pistas y conservación de la posición al editar en la misma carpeta.
-- **Arrastrar a carpetas:** corregido un fallo intermitente de confirmación al mover canciones mediante arrastres sucesivos.
-- **Diagnóstico:** más información para revisar incidencias de actualización y movimiento de canciones.
+- **Español e inglés:** interfaz, mensajes de exportación y documentación disponibles en ambos idiomas; el instalador incluye una carpeta «English».
+- **Motor de exportación optimizado:** mejoras de rendimiento y eficiencia en la preparación de audio y las exportaciones. El tiempo real depende del Mac, los archivos y la conexión y velocidad de la memoria USB.
+- **Mejor compatibilidad de audio:** corregida la exclusión de ciertos archivos WAV de 32 bits en coma flotante durante la exportación.
+- **Expulsión de USB más clara:** la aplicación muestra «Expulsando… No desconectes la USB todavía» mientras macOS termina la operación.
+- **Control del espacio de caché:** la vista previa estima el espacio necesario en el Mac y avisa o impide continuar si no hay espacio suficiente.
+- **Limpieza opcional:** nuevo ajuste para vaciar la caché al terminar cada exportación.
 
-Se recomienda actualizar desde las betas anteriores. Se mantienen la edición de etiquetas, la gestión de pistas, la búsqueda de duplicadas, la preescucha y las funciones de exportación e Inspector USB/SD.
+Se mantienen la edición de etiquetas, la gestión de pistas, la búsqueda de duplicadas, la preescucha y el Inspector USB/SD.
 
 Antes de mover archivos o editar etiquetas, conserva copias de seguridad y cierra Serato DJ. Mover a otra carpeta o a la Papelera afecta a los archivos del disco; quitar canciones de una playlist propia no los borra.
 
