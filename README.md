@@ -8,7 +8,7 @@ Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca mu
 
 ## Beta pública
 
-- **Versión disponible:** 1.3 Beta — build 175.
+- **Versión disponible:** 1.3 Beta — build 178.
 - **Sistema requerido:** macOS 13 Ventura o posterior.
 - **Plataforma principal:** Apple Silicon (ARM64).
 - **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
@@ -18,7 +18,7 @@ Esta es una versión beta. Puede presentar errores y sus funciones o compatibili
 
 ## Descargar e instalar
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 175](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build175) y busca la sección **Assets** (archivos).
+Abre la [descarga de Alchemy DX 1.3 Beta — build 178](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build178) y busca la sección **Assets** (archivos).
 
 ### 1. Elige el instalador para tu Mac
 
@@ -26,8 +26,8 @@ Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de est
 
 | Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.175.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build175/Alchemy.DX.1.3.Beta.build.175.dmg) |
-| Intel | [Alchemy.DX.1.3.Beta.build.175.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build175/Alchemy.DX.1.3.Beta.build.175.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.178.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build178/Alchemy.DX.1.3.Beta.build.178.dmg) |
+| Intel | [Alchemy.DX.1.3.Beta.build.178.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build178/Alchemy.DX.1.3.Beta.build.178.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
 
 Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
@@ -54,7 +54,14 @@ Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas 
 
 La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
 
-## Novedades de 1.3 Beta — build 175
+## Novedades de 1.3 Beta — build 178
+
+- **Selección de canciones corregida:** vuelve a funcionar el clic simple, junto con las flechas, la barra espaciadora para preescucha y el menú contextual.
+- **Edición de etiquetas más robusta:** mejor manejo de archivos con etiquetas ilegibles o formatos no admitidos.
+- **Ediciones coordinadas:** la edición de etiquetas se bloquea durante la sincronización o exportación.
+- **Columna en español:** «Grouping» pasa a llamarse «Agrupación».
+
+Se recomienda actualizar desde el build 175. Se mantienen las funciones anteriores:
 
 - **Edita etiquetas con doble clic:** modifica título, artista, álbum, género, año y otros campos desde la tabla. Intro guarda y Esc cancela.
 - **Editor de una o varias canciones:** abre «Editar etiquetas…» desde el menú contextual o con ⌘⇧T. En selecciones múltiples, solo se modifican los campos que cambies.
