@@ -8,7 +8,7 @@ Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca mu
 
 ## Beta pública
 
-- **Versión disponible:** 1.3 Beta — build 184.
+- **Versión disponible:** 1.3 Beta — build 187.
 - **Sistema requerido:** macOS 13 Ventura o posterior.
 - **Plataforma principal:** Apple Silicon (ARM64).
 - **Mac con Intel:** hay un instalador Universal. Su versión Intel se probó mediante Rosetta en Apple Silicon; todavía no se han confirmado pruebas en un Mac Intel físico.
@@ -18,7 +18,7 @@ Esta es una versión beta. Puede presentar errores y sus funciones o compatibili
 
 ## Descargar e instalar
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 184](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build184) y busca la sección **Assets** (archivos).
+Abre la [descarga de Alchemy DX 1.3 Beta — build 187](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build187) y busca la sección **Assets** (archivos).
 
 ### 1. Elige el instalador para tu Mac
 
@@ -26,8 +26,8 @@ Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de est
 
 | Tu Mac | Archivo que debes descargar |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.184.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build184/Alchemy.DX.1.3.Beta.build.184.dmg) |
-| Intel | [Alchemy.DX.1.3.Beta.build.184.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build184/Alchemy.DX.1.3.Beta.build.184.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
+| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.187.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build187/Alchemy.DX.1.3.Beta.build.187.dmg) |
+| Intel | [Alchemy.DX.1.3.Beta.build.187.Universal.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build187/Alchemy.DX.1.3.Beta.build.187.Universal.dmg), teniendo en cuenta la limitación de pruebas indicada arriba |
 
 Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
 
@@ -54,19 +54,16 @@ Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas 
 
 La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
 
-## Novedades de 1.3 Beta — build 184
+## Novedades de 1.3 Beta — build 187
 
-- **Cierres corregidos:** solucionados cierres inesperados al usar la rueda del ratón y al arrastrar pistas, presentes en los builds 175 y 178.
-- **Mover canciones:** arrástralas a una carpeta de la barra lateral o usa «Mover a otra carpeta…». Esta acción mueve los archivos en el disco, solicita confirmación y se puede deshacer.
-- **Papelera:** envía canciones a la Papelera con confirmación para poder recuperarlas.
-- **Buscar duplicadas:** encuentra canciones con el mismo audio, aunque cambien el nombre o las etiquetas. Revisa las copias seleccionadas antes de decidir qué hacer con ellas.
-- **Añadir a playlists:** arrastra canciones sobre una playlist de «Para exportación» para añadirlas sin mover los archivos originales.
+- **Actualizar USB:** corregido un cierre que podía ocurrir al actualizar memorias con playlists conservadas y canciones repetidas en la selección.
+- **Tabla de canciones:** mejoras de estabilidad al cambiar entre carpetas con muchas pistas y conservación de la posición al editar en la misma carpeta.
+- **Arrastrar a carpetas:** corregido un fallo intermitente de confirmación al mover canciones mediante arrastres sucesivos.
+- **Diagnóstico:** más información para revisar incidencias de actualización y movimiento de canciones.
 
-En las playlists propias, quitar duplicadas de la playlist no borra sus archivos del disco.
+Se recomienda actualizar desde las betas anteriores. Se mantienen la edición de etiquetas, la gestión de pistas, la búsqueda de duplicadas, la preescucha y las funciones de exportación e Inspector USB/SD.
 
-Se recomienda actualizar desde los builds 175 y 178. Se mantienen la edición de etiquetas, el contador por carpeta, la preescucha y las funciones de exportación e Inspector USB/SD.
-
-Antes de mover archivos o editar etiquetas, conserva copias de seguridad y cierra Serato DJ.
+Antes de mover archivos o editar etiquetas, conserva copias de seguridad y cierra Serato DJ. Mover a otra carpeta o a la Papelera afecta a los archivos del disco; quitar canciones de una playlist propia no los borra.
 
 ## Acerca de este repositorio
 
