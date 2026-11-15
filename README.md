@@ -1,74 +1,71 @@
-# Alchemy DX
+# Alchemy DX2 LAB
 
-**Organización de bibliotecas DJ y exportación a USB para macOS**
+**Siete herramientas para tu biblioteca DJ, reunidas en una sola aplicación para Mac.**
 
-Alchemy DX es una aplicación para Mac que te ayuda a organizar tu biblioteca musical, importar crates de Serato DJ y preparar exportaciones USB o SD para determinados equipos DJ compatibles.
+Alchemy DX evolucionó a **Alchemy DX2 LAB**: una suite para organizar bibliotecas, preparar crates y exportaciones USB/SD, crear playlists de eventos, editar metadatos y respaldar tu música y biblioteca de Serato.
 
-**Idiomas: español e inglés.** Incluye documentación en ambos idiomas.
+## Versión actual: 1.0 — build 600
 
-## Beta pública
+**Primera beta estable oficial.** Disponible únicamente para **Apple Silicon (ARM64, M1 o posterior)** y **macOS 14 Sonoma o posterior**. Interfaz en **español e inglés**.
 
-- **Versión disponible:** 1.3 Beta — build 217.
-- **Sistema requerido:** macOS 13 Ventura o posterior.
-- **Plataforma principal:** Apple Silicon (ARM64).
-- **Disponibilidad de este build:** ARM64 para Apple Silicon. No hay instalador Universal del build 217 publicado. El Universal del build 187 sigue disponible como versión anterior; su parte Intel se probó bajo Rosetta, sin confirmación en un Mac Intel físico.
-- **Fecha límite de la beta:** 9 de enero de 2027. Al vencer, se desactivan la sincronización, las exportaciones a USB y Rekordbox y el formateo. Puedes seguir consultando la biblioteca y utilizando el Inspector.
+**No hay versión Intel ni instalador Universal de LAB.** Las publicaciones antiguas de Alchemy DX se conservan como historial y no son la versión actual de esta suite.
 
-Esta es una versión beta. Puede presentar errores y sus funciones o compatibilidad pueden cambiar. Conserva copias de seguridad y prueba las exportaciones con tu equipo antes de utilizarlas en una presentación.
+[**Descargar Alchemy DX2 LAB 1.0 Beta — build 600 (ARM64)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build600/Alchemy.DX2.LAB.1.0.Beta.build.600.dmg)
 
-## Descargar e instalar
+[Ver novedades e instrucciones de esta versión](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build600)
 
-Abre la [descarga de Alchemy DX 1.3 Beta — build 217](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build217) y busca la sección **Assets** (archivos).
+## Las siete herramientas
 
-### 1. Elige el instalador para tu Mac
-
-Para saber qué Mac tienes, abre el menú Apple  y selecciona **Acerca de esta Mac**. Comprueba si indica un chip Apple o un procesador Intel.
-
-| Tu Mac | Archivo que debes descargar |
+| Herramienta | Qué puedes hacer |
 | --- | --- |
-| Apple Silicon (chip Apple) | [Alchemy.DX.1.3.Beta.build.217.dmg](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.3-beta-build217/Alchemy.DX.1.3.Beta.build.217.dmg) |
-| Intel | No hay Universal del build 217. [Universal beta anterior: build 187](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.3-beta-build187), con las limitaciones de pruebas indicadas arriba; caduca el 8 de enero de 2027 |
+| **Alchemy DX** | Convertir carpetas en crates de Serato y preparar USB o SD para determinados equipos Pioneer DJ / AlphaTheta compatibles, sin pasar por Rekordbox. |
+| **Library Manager** | Gestionar la biblioteca de Serato por disco y trabajar con una USB enlazada a tus crates. |
+| **Playlist Creator** | Preparar el crate de un evento a partir de una lista de Spotify, Apple Music o texto, revisando las versiones de las canciones propuestas. |
+| **Tags** | Revisar y corregir año, género y otros metadatos de canciones y videos, con respaldo y restauración por lote. |
+| **Data Back** | Clonar o respaldar la biblioteca de Serato, o crates seleccionados, en un disco externo con verificación. |
+| **Golden Unlock** | Quitar el candado dorado asociado a archivos de solo lectura en Serato. |
+| **Cleaner** | Buscar archivos auxiliares de macOS `._` y enviarlos a la Papelera. |
 
-Descarga **solo uno** de los instaladores. Los enlaces **Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio; no son instaladores de Alchemy DX.
+Las listas de Spotify y Apple Music se utilizan para preparar playlists: no se ofrece descarga de música desde esos servicios.
 
-### 2. Instala la aplicación
+## Qué cambia respecto a Alchemy DX 1.3
 
-1. Abre el archivo **.dmg** que descargaste.
-2. Sigue las instrucciones incluidas en el instalador. Si aparecen Alchemy DX y un acceso a Aplicaciones, arrastra **Alchemy DX** a **Aplicaciones**.
-3. Abre **Alchemy DX** desde **Aplicaciones**.
-4. Conserva una copia de seguridad de tu biblioteca y realiza una exportación pequeña de prueba antes de usarla habitualmente con tu equipo DJ.
+- **Una suite integrada:** siete herramientas accesibles desde una misma ventana.
+- **Gestión de biblioteca por disco:** Library Manager amplía el trabajo con Serato y USB enlazadas.
+- **Preparación de eventos:** Playlist Creator ayuda a convertir una lista de canciones en un crate.
+- **Metadatos y respaldos:** Tags y Data Back reúnen edición, restauración y copias verificadas.
+- **Interfaz adaptable:** ajustes de tamaño de letra, densidad y legibilidad, paneles plegables y paletas «Claro nítido» y «Grafito Apple».
+- **Exportación optimizada:** se conserva el trabajo de exportación USB de Alchemy DX, con mejoras de rendimiento cuya velocidad depende del Mac, los archivos y la memoria de destino.
 
-Si macOS impide abrir la aplicación, revisa el mensaje del sistema y las notas de esta versión antes de continuar.
+LAB es una aplicación aparte; no sustituye automáticamente a Alchemy DX 1.3 ni a las otras aplicaciones individuales.
 
-## Funciones principales
+## Instalar y empezar
 
-- **Organiza tu biblioteca:** administra carpetas, playlists y el orden de las canciones para exportar.
-- **Importa tus crates de Serato:** incluye crates y subcrates, también con música distribuida entre discos conectados.
-- **Prepara USB y tarjetas SD:** exporta para determinados equipos DJ compatibles y actualiza exportaciones existentes sin volver a formatear.
-- **Elige cómo organizar las playlists:** conserva las carpetas o coloca las playlists en la raíz.
-- **Escucha antes de exportar:** utiliza el reproductor con controles, portada y barra de avance.
-- **Revisa tus exportaciones:** consulta la integridad de la biblioteca y los resultados con el Inspector USB/SD.
-- **Trabaja con archivos de video:** extrae el audio durante la exportación USB cuando corresponda.
-- **Sigue el progreso:** consulta las fases de la exportación, los tiempos y los mensajes de resultado.
-- **Utiliza una interfaz adaptada a macOS:** apariencia Día, Noche o Auto, atajos de teclado y ayuda sin conexión.
+1. En Apple  → **Acerca de esta Mac**, comprueba que tienes un chip Apple y **macOS 14 o posterior**.
+2. Descarga el **.dmg** del build 600 desde el enlace de arriba.
+3. Cierra LAB si está abierta. Abre el DMG y arrastra **Alchemy DX2 LAB** a **Aplicaciones**. Sustituye una instalación anterior de LAB si corresponde.
+4. Antes del primer uso, lee **«LEER PRIMERO – Atención beta testers»** y las instrucciones incluidas en el instalador.
+5. Abre la aplicación desde Aplicaciones. Cierra **Serato DJ y Rekordbox** antes de utilizar herramientas que escriban en tu biblioteca.
+6. Elige una herramienta y comienza con copias de archivos y una USB de prueba.
 
-La compatibilidad depende del equipo, su firmware, el sistema operativo, el formato de biblioteca y la versión del software. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ ni con todas las versiones de Serato DJ. Haz una copia de seguridad del contenido de tus USB y tarjetas SD antes de actualizarlos o formatearlos.
+La aplicación está firmada localmente y **no está notarizada por Apple**. Si macOS bloquea su apertura, revisa el aviso y las instrucciones incluidas en el instalador antes de decidir si quieres abrirla.
 
-## Novedades de 1.3 Beta — build 217
+**Source code (zip)** y **Source code (tar.gz)** son archivos que GitHub genera con la documentación pública del repositorio. **No son instaladores.**
 
-- **Español e inglés:** interfaz, mensajes de exportación y documentación disponibles en ambos idiomas; el instalador incluye una carpeta «English».
-- **Motor de exportación optimizado:** mejoras de rendimiento y eficiencia en la preparación de audio y las exportaciones. El tiempo real depende del Mac, los archivos y la conexión y velocidad de la memoria USB.
-- **Mejor compatibilidad de audio:** corregida la exclusión de ciertos archivos WAV de 32 bits en coma flotante durante la exportación.
-- **Expulsión de USB más clara:** la aplicación muestra «Expulsando… No desconectes la USB todavía» mientras macOS termina la operación.
-- **Control del espacio de caché:** la vista previa estima el espacio necesario en el Mac y avisa o impide continuar si no hay espacio suficiente.
-- **Limpieza opcional:** nuevo ajuste para vaciar la caché al terminar cada exportación.
+## Condiciones de esta beta
 
-Se mantienen la edición de etiquetas, la gestión de pistas, la búsqueda de duplicadas, la preescucha y el Inspector USB/SD.
+**La beta build 600 funciona hasta el 11 de enero de 2027.** Al caducar, las herramientas que escriben en Serato, en tus discos o en tus archivos dejan de funcionar hasta instalar una nueva versión; no se borran tus datos.
 
-Antes de mover archivos o editar etiquetas, conserva copias de seguridad y cierra Serato DJ. Mover a otra carpeta o a la Papelera afecta a los archivos del disco; quitar canciones de una playlist propia no los borra.
+Aunque esta publicación corresponde a la primera beta estable oficial, sigue siendo software beta y puede presentar errores. Haz copias de seguridad de tu música y biblioteca de Serato, revisa las operaciones propuestas y prueba las exportaciones en tu equipo antes de usarlas en una presentación.
 
-## Acerca de este repositorio
+La compatibilidad depende del equipo, firmware, formato de biblioteca y software utilizado. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ / AlphaTheta ni con todas las versiones de Serato.
 
-Este repositorio distribuye los instaladores compilados de Alchemy DX e información pública para quienes prueban la beta. No incluye el código fuente del producto ni los proyectos de desarrollo.
+## Ayuda y soporte
 
-Puedes consultar todas las versiones publicadas en [Releases](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases).
+Consulta el manual desde el menú **Ayuda**. Para reportar una incidencia, utiliza **Ayuda → Diagnóstico → Generar informe de diagnóstico…** y describe qué hiciste y qué ocurrió.
+
+**Soporte:** [alchemydx2@gmail.com](mailto:alchemydx2@gmail.com).
+
+Desarrollado por **DJ Bismarck · Costa Rica**. Alchemy DX2 LAB no está afiliada a Serato, Pioneer DJ, AlphaTheta ni Rekordbox; las marcas pertenecen a sus respectivos titulares.
+
+Este repositorio distribuye instaladores compilados e información pública. No contiene el código fuente ni los proyectos de desarrollo. [Consultar el historial de publicaciones](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases).
