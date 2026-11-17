@@ -1,48 +1,53 @@
 # Alchemy DX2 LAB
 
-**Siete herramientas para tu biblioteca DJ, reunidas en una sola aplicación para Mac.**
+**Ocho herramientas para tu biblioteca DJ, reunidas en una sola aplicación para Mac.**
 
 Alchemy DX evolucionó a **Alchemy DX2 LAB**: una suite para organizar bibliotecas, preparar crates y exportaciones USB/SD, crear playlists de eventos, editar metadatos y respaldar tu música y biblioteca de Serato.
 
-## Versión actual: 1.0 — build 600
+## Versión actual: 1.0 — build 744
 
-**Primera beta estable oficial.** Disponible únicamente para **Apple Silicon (ARM64, M1 o posterior)** y **macOS 14 Sonoma o posterior**. Interfaz en **español e inglés**.
+**Beta estable en la etapa final de pruebas previa al lanzamiento oficial.** Disponible únicamente para **Apple Silicon (ARM64, M1 o posterior)** y **macOS 14 Sonoma o posterior**. Interfaz en **español e inglés**.
 
 **No hay versión Intel ni instalador Universal de LAB.** Las publicaciones antiguas de Alchemy DX se conservan como historial y no son la versión actual de esta suite.
 
-[**Descargar Alchemy DX2 LAB 1.0 Beta — build 600 (ARM64)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build600/Alchemy.DX2.LAB.1.0.Beta.build.600.dmg)
+[**Descargar Alchemy DX2 LAB 1.0 Beta — build 744 (ARM64)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build744/Alchemy.DX2.LAB.1.0.Beta.build.744.dmg)
 
-[Ver novedades e instrucciones de esta versión](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build600)
+[Ver novedades e instrucciones de esta versión](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build744)
 
-## Las siete herramientas
+## Las ocho herramientas
 
 | Herramienta | Qué puedes hacer |
 | --- | --- |
 | **Alchemy DX** | Convertir carpetas en crates de Serato y preparar USB o SD para determinados equipos Pioneer DJ / AlphaTheta compatibles, sin pasar por Rekordbox. |
 | **Library Manager** | Gestionar la biblioteca de Serato por disco y trabajar con una USB enlazada a tus crates. |
 | **Playlist Creator** | Preparar el crate de un evento a partir de una lista de Spotify, Apple Music o texto, revisando las versiones de las canciones propuestas. |
+| **Duplicate Finder** | Encontrar canciones y videos repetidos y versiones de una misma canción; apartar las copias elegidas a una carpeta recuperable. |
 | **Tags** | Revisar y corregir año, género y otros metadatos de canciones y videos, con respaldo y restauración por lote. |
 | **Data Back** | Clonar o respaldar la biblioteca de Serato, o crates seleccionados, en un disco externo con verificación. |
-| **Golden Unlock** | Quitar el candado dorado asociado a archivos de solo lectura en Serato. |
+| **File Fix** | Quitar el candado dorado asociado a archivos de solo lectura en Serato. |
 | **Cleaner** | Buscar archivos auxiliares de macOS `._` y enviarlos a la Papelera. |
 
 Las listas de Spotify y Apple Music se utilizan para preparar playlists: no se ofrece descarga de música desde esos servicios.
 
-## Qué cambia respecto a Alchemy DX 1.3
+## Novedades del build 744 frente a la beta 600
 
-- **Una suite integrada:** siete herramientas accesibles desde una misma ventana.
-- **Gestión de biblioteca por disco:** Library Manager amplía el trabajo con Serato y USB enlazadas.
-- **Preparación de eventos:** Playlist Creator ayuda a convertir una lista de canciones en un crate.
-- **Metadatos y respaldos:** Tags y Data Back reúnen edición, restauración y copias verificadas.
-- **Interfaz adaptable:** ajustes de tamaño de letra, densidad y legibilidad, paneles plegables y paletas «Claro nítido» y «Grafito Apple».
-- **Exportación optimizada:** se conserva el trabajo de exportación USB de Alchemy DX, con mejoras de rendimiento cuya velocidad depende del Mac, los archivos y la memoria de destino.
+- **Toda la suite integrada:** ocho herramientas dentro de una misma aplicación, con una experiencia común; no necesitas abrir aplicaciones separadas para cada tarea.
+- **Duplicate Finder:** nueva herramienta para localizar duplicados de audio y video y revisar versiones de una misma canción.
+- **Library Manager ampliado:** reproducción desde cada fila, columnas y filtros, comentarios editables, edición de tags por lote, estado de salud de la biblioteca, nuevos crates en Serato y consulta de reproducciones.
+- **Tags por lote con carátulas:** revisa los cambios antes de escribirlos y utiliza las opciones de restauración disponibles.
+- **File Fix:** nuevo nombre de Golden Unlock, para identificar mejor su función con archivos bloqueados o de solo lectura.
+- **Controles uniformes:** barra superior común, iconos propios por herramienta, acción principal en verde, «Detener» en rojo y reproductores que empiezan desde el inicio de la canción.
+- **Operaciones recuperables:** los archivos apartados se guardan en una carpeta visible del mismo disco, con «Deshacer» y «Mostrar en el Finder»; Cleaner sigue enviando los archivos auxiliares `._` a la Papelera.
+- **Más fluidez:** tablas y ventanas de opciones más ligeras; se concentra el trabajo en la herramienta abierta.
+- **Mayor protección de datos:** mejoras en clonados, sincronización de USB, deshacer y manejo de permisos en discos compartidos.
+- **Interfaz adaptable:** español e inglés, ajustes de tamaño de letra y densidad, paneles plegables y temas claro y grafito.
 
 LAB es una aplicación aparte; no sustituye automáticamente a Alchemy DX 1.3 ni a las otras aplicaciones individuales.
 
 ## Instalar y empezar
 
 1. En Apple  → **Acerca de esta Mac**, comprueba que tienes un chip Apple y **macOS 14 o posterior**.
-2. Descarga el **.dmg** del build 600 desde el enlace de arriba.
+2. Descarga el **.dmg** del build 744 desde el enlace de arriba.
 3. Cierra LAB si está abierta. Abre el DMG y arrastra **Alchemy DX2 LAB** a **Aplicaciones**. Sustituye una instalación anterior de LAB si corresponde.
 4. Antes del primer uso, lee **«LEER PRIMERO – Atención beta testers»** y las instrucciones incluidas en el instalador.
 5. Abre la aplicación desde Aplicaciones. Cierra **Serato DJ y Rekordbox** antes de utilizar herramientas que escriban en tu biblioteca.
@@ -54,9 +59,9 @@ La aplicación está firmada localmente y **no está notarizada por Apple**. Si 
 
 ## Condiciones de esta beta
 
-**La beta build 600 funciona hasta el 11 de enero de 2027.** Al caducar, las herramientas que escriben en Serato, en tus discos o en tus archivos dejan de funcionar hasta instalar una nueva versión; no se borran tus datos.
+**La beta build 744 funciona hasta el 11 de enero de 2027.** Al caducar, las herramientas que escriben en Serato, en tus discos o en tus archivos dejan de funcionar hasta instalar una nueva versión; no se borran tus datos.
 
-Aunque esta publicación corresponde a la primera beta estable oficial, sigue siendo software beta y puede presentar errores. Haz copias de seguridad de tu música y biblioteca de Serato, revisa las operaciones propuestas y prueba las exportaciones en tu equipo antes de usarlas en una presentación.
+Aunque esta publicación corresponde a la beta estable actual, sigue siendo software beta y puede presentar errores. Haz copias de seguridad de tu música y biblioteca de Serato, revisa las operaciones propuestas y prueba las exportaciones en tu equipo antes de usarlas en una presentación.
 
 La compatibilidad depende del equipo, firmware, formato de biblioteca y software utilizado. No se garantiza compatibilidad con todos los dispositivos Pioneer DJ / AlphaTheta ni con todas las versiones de Serato.
 
