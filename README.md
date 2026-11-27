@@ -4,15 +4,17 @@
 
 Alchemy DX evolucionó a **Alchemy DX2 LAB**: una suite para organizar bibliotecas, preparar crates y exportaciones USB/SD, crear playlists de eventos, editar metadatos y respaldar tu música y biblioteca de Serato.
 
-## Versión actual: 1.0 — build 1120
+## Versión actual: 1.0 — build 1184
 
-**Beta estable en la etapa final de pruebas previa al lanzamiento oficial.** Disponible únicamente para **Apple Silicon (ARM64, M1 o posterior)** y **macOS 14 Sonoma o posterior**. Interfaz en **español e inglés**.
+**Beta estable en la etapa final de pruebas previa al lanzamiento oficial.** Disponible para **Apple Silicon (ARM64)** y en instalador **Universal (Apple Silicon e Intel)**, con **macOS 14 Sonoma o posterior**. **La versión Intel está en pruebas.** Interfaz en **español e inglés**.
 
-**No hay versión Intel ni instalador Universal de LAB.** Las publicaciones antiguas de Alchemy DX se conservan como historial y no son la versión actual de esta suite.
+Elige **ARM64** si tu Mac tiene chip Apple, o **Universal** si tiene procesador Intel. Las publicaciones anteriores se conservan como historial.
 
-[**Descargar Alchemy DX2 LAB 1.0 Beta — build 1120 (ARM64)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build1120/Alchemy.DX2.LAB.1.0.Beta.build.1120.dmg)
+[**Descargar Alchemy DX2 LAB 1.0 Beta — build 1184 (ARM64)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build1184/Alchemy.DX2.LAB.1.0.Beta.build.1184.dmg)
 
-[Ver novedades e instrucciones de esta versión](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build1120)
+[**Descargar build 1184 Universal — Apple Silicon e Intel (Intel en pruebas)**](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build1184/Alchemy.DX2.LAB.1.0.Beta.build.1184.Universal.dmg)
+
+[Ver novedades e instrucciones de esta versión](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build1184)
 
 ## Las ocho herramientas
 
@@ -29,30 +31,39 @@ Alchemy DX evolucionó a **Alchemy DX2 LAB**: una suite para organizar bibliotec
 
 Las listas de Spotify y Apple Music se utilizan para preparar playlists: no se ofrece descarga de música desde esos servicios.
 
-## Novedades del build 1120
+## Novedades del build 1184
 
-- **Reproductor DX:** deck con carátula, BPM del tramo, tiempo restante, distancia al siguiente cue, pads 1–8 y ondas general y ampliada. Columna «Onda» con cues y loops en Library Manager, Alchemy DX y Duplicate Finder.
-- **Loops en golpes:** 1, 2, 4, 8, 16 o 32 golpes, con 4 de inicio. Corregida la deriva entre vueltas. **Limitación conocida:** todavía puede oírse un corte muy breve al cerrar el loop.
-- **Q y salto por golpes:** cuantización de pads y saltos durante la reproducción; controles reorganizados y deck que adapta sus filas al ancho de la ventana.
-- **Más fluidez:** el informe describe onda a 60 cuadros por segundo y carátulas entre 0,1 y 0,4 segundos en los escenarios medidos. El rendimiento depende del equipo y los archivos.
-- **Alchemy DX:** lee metadatos completos de carpetas nuevas aunque Serato aún no las tenga y refleja cambios de Serato al volver a LAB o cerrar Serato.
-- **USB:** progreso por canción, respaldo más claro y parada también durante el respaldo; mejoras al detectar memorias de otra Mac y al localizar música movida. Conservación de cues e historial del reproductor documentada para Legacy; el caso OneLibrary está pendiente de aclaración documental.
-- **Serato DJ 5 y grillas:** lectura de su beatgrid, respeto de los pads ocupados por Cue Loops, editor de grilla con deshacer y análisis por lote.
-- **Formatos y Tags:** edición de etiquetas dentro de WAV, AIFF y FLAC; preparación de audio compatible para determinados reproductores; carátulas de 1000 px, nombres y recetas más accesibles y restauración exacta de valores.
-- **Suite integrada:** preescucha y volumen comunes, atajos uniformes, controles legibles con ventanas estrechas y mejor comportamiento entre monitores.
+- **Tags abre correctamente con monitor externo:** corregido el bloqueo que podía ocurrir al iniciar LAB directamente en Tags en español. Los filtros se adaptan al ancho disponible.
+- **Más fluidez al redimensionar Tags:** el informe documenta más del doble de fluidez en los escenarios medidos, también con bibliotecas grandes. El resultado depende del equipo.
+- **Ocultar LAB sin cierres inesperados:** corregido el cierre que podía ocurrir al ocultar la aplicación mientras terminaba de cerrarse una hoja o panel.
+- **Library Manager más sólido:** barra lateral de Salud y «Lo que tocas» más estable, con filas visibles y un indicador mientras se calculan los conteos.
+- **Diagnóstico de bloqueos:** el informe identifica cuánto duró la falta de respuesta, en qué herramienta ocurrió y dónde se detuvo; también recoge avisos de macOS.
+- **Controles más legibles:** los botones de lote de Tags se adaptan a letra grande y ventanas pequeñas; mejoras en el Historial de Tags y Ajustes de Library Manager, y textos de almacenamiento en inglés uniformes.
+- **Desde la beta 1166:** scratch con videos, mezclas largas y formatos de audio; ondas de archivos largos que se dibujan progresivamente; Riddims en Tags; Ajustes → Almacenamiento; ancho de columnas con doble clic y letras sueltas que ya no cambian de canción.
 
-## Pruebas documentadas de la beta 1120
+## Pruebas documentadas de la beta 1184
 
-El informe de novedades registra **1.720 pruebas automáticas sin fallos**, **854 clics de recorrido sin cierres** y exportación USB **idéntica byte a byte con tres motores**. Estas cifras corresponden a los escenarios documentados y no garantizan ausencia de errores ni compatibilidad con todos los equipos.
+**1.764 pruebas automáticas sin fallos · 850 clics de recorrido por la aplicación sin cierres · exportación USB idéntica byte a byte con tres motores.**
 
-[Ver novedades, límites conocidos e instrucciones en español e inglés](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build1120)
+Estas cifras proceden del informe de esta build. Describen los escenarios probados y no garantizan ausencia de errores en todas las configuraciones. La distribución Universal incluye Intel, que continúa en pruebas.
+
+## Manuales ilustrados y comprobación del instalador
+
+- [Manual ilustrado en español (PDF, 40 páginas)](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build1184/Manual.ilustrado.-.Alchemy.DX2.LAB.Beta.pdf)
+- [Illustrated Guide in English (PDF, 40 pages)](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/download/v1.0.0-lab-build1184/Illustrated.Guide.-.Alchemy.DX2.LAB.Beta.pdf)
+
+Los manuales muestran capturas de la **build 1166** y explican las ocho herramientas, los botones, los pasos y los atajos. Consulta las notas de la 1184 para los cambios posteriores.
+
+En los archivos de la publicación encontrarás también los **SHA-256 de ARM64 y Universal** para comprobar la integridad de tu descarga. Los archivos de sumas conservan los nombres originales de los instaladores; GitHub sustituye los espacios y paréntesis por puntos al descargarlos.
+
+[Ver todas las novedades e instrucciones en español e inglés](https://github.com/DjBismarck/Alchemy-DX-Downloads/releases/tag/v1.0.0-lab-build1184)
 
 LAB es una aplicación aparte; no sustituye automáticamente a Alchemy DX 1.3 ni a las otras aplicaciones individuales.
 
 ## Instalar y empezar
 
-1. En Apple  → **Acerca de esta Mac**, comprueba que tienes un chip Apple y **macOS 14 o posterior**.
-2. Descarga el **.dmg** del build 1120 desde el enlace de arriba.
+1. En Apple  → **Acerca de esta Mac**, comprueba si tienes un chip Apple o procesador Intel y **macOS 14 o posterior**.
+2. Descarga el **.dmg** del build 1184 desde el enlace de arriba.
 3. Cierra LAB si está abierta. Abre el DMG y arrastra **Alchemy DX2 LAB** a **Aplicaciones**. Sustituye una instalación anterior de LAB si corresponde.
 4. Antes del primer uso, lee **«LEER PRIMERO – Atención beta testers»** y las instrucciones incluidas en el instalador.
 5. Abre la aplicación desde Aplicaciones. Cierra **Serato DJ y Rekordbox** antes de utilizar herramientas que escriban en tu biblioteca.
@@ -64,7 +75,7 @@ La aplicación está firmada localmente y **no está notarizada por Apple**. Si 
 
 ## Condiciones de esta beta
 
-**La beta build 1120 funciona hasta el 11 de enero de 2027.** Al caducar, las herramientas que escriben en Serato, en tus discos o en tus archivos dejan de funcionar hasta instalar una nueva versión; no se borran tus datos.
+**La beta build 1184 funciona hasta el 11 de enero de 2027.** Al caducar, las herramientas que escriben en Serato, en tus discos o en tus archivos dejan de funcionar hasta instalar una nueva versión; no se borran tus datos.
 
 Aunque esta publicación corresponde a la beta estable actual, sigue siendo software beta y puede presentar errores. Haz copias de seguridad de tu música y biblioteca de Serato, revisa las operaciones propuestas y prueba las exportaciones en tu equipo antes de usarlas en una presentación.
 
